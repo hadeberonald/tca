@@ -1,0 +1,26 @@
+.container{
+    color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    padding: 20px;
+    flex: 1;
+}
+
+.links{
+    display: flex;
+    padding: 40px;
+    flex: 4;
+    gap:30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        display:none;
+    }
+}

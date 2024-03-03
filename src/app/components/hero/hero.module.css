@@ -1,0 +1,212 @@
+.container{
+    color:white;
+    aspect-ratio: 24 / 13;
+    flex-grow: 1;
+    width: 100vw;
+    background-image: url('/hero-background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text{
+    width: 50%;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.para{
+    color: gray;
+    font-size: 30px;
+    padding-top:10px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    
+.text{
+    width: 50%;
+    padding-left: 30px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.para{
+    color: gray;
+    font-size: 30px;
+    padding-top:10px;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    
+    .text{
+        width: 50%;
+        padding-left: 30px;
+        text-align: center;
+        padding-top: 3%;
+    }
+    
+    .h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    .h2{
+        font-size: 35px;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .para{
+        color: gray;
+        font-size: 25px;
+        padding-top:10px;
+    }
+    }
+
+    
+
+@media screen and (max-width: 768px) {
+
+    
+    .text{
+        width: 50%;
+        padding-left: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+    
+    .h1{
+        font-size: 34px;
+        font-weight: bold;
+    }
+    
+    .h2{
+        font-size: 30px;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .para{
+        color: gray;
+        font-size: 18px;
+        padding-top:10px;
+    }
+    }
+
+    @media screen and (max-width:640px) {
+        .container{
+            color:white;
+            aspect-ratio: 125 / 256;
+            flex-grow: 1;
+            width: 100vw;
+            background-image: url('/hero-background-mobile.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+ 
+    .text{
+        width: 100vw;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+       padding-top: 30px;
+    }
+    
+    .h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    .h2{
+        font-size: 30px;
+        font-weight: 300;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    
+    .para{
+        color: gray;
+        font-size: 20px;
+        padding-top:20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    }
+
+    @media screen and (max-width:375px) {
+        .container{
+            color:white;
+            aspect-ratio: 125 / 256;
+            flex-grow: 1;
+            width: 100vw;
+            background-image: url('/hero-background-mobile.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+ 
+    .text{
+        width: 100vw;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+       padding-top: 20px;
+    }
+    
+    .h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .h2{
+        font-size: 25px;
+        font-weight: 300;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .para{
+        color: gray;
+        font-size: 18px;
+        padding-top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    }
+
+

@@ -1,0 +1,149 @@
+.container{
+    color:white;
+    overflow-y:hidden;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    min-height: 600px;
+}
+
+.headerImageContainer{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.avatar{
+    border-radius: 50px;
+
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 15px;
+}
+
+.h2{
+    padding-top: 20px;
+}
+
+.subheading{
+    text-align:center;
+}
+
+.links{
+    padding-top: 10px;
+    text-decoration: underline solid red;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 15px;
+}
+
+.link{
+    background-color: red;
+    width: max-content;
+    padding: 20px;
+    font-weight: bold;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+@media screen and (max-width: 1536px) {
+    .imagem {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+.imagem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.image {
+    display: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    min-height: 300px;
+}
+
+.headerImageContainer{
+    display: none;
+}
+
+.title{
+   
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+}
