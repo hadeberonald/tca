@@ -1,0 +1,180 @@
+.container {
+    aspect-ratio: 1200 / 313;
+    flex-grow: 1;
+    width: 100vw;
+    background-image: url('/cta-banner.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay{
+    background: rgba(49,49,49,0.8);
+}
+
+.modalContent{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: white;
+    padding: 14px 28px;
+    border-radius: 25px;
+    max-width: 600px;
+    min-width: 350px;
+}
+.close{
+    border: none;
+    background: none;
+    margin-left: 85%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.subhead{
+    color: red;
+    padding-top:20px;
+}
+
+.button{
+    margin-left: 50%;
+    margin-top: 15%;
+    background-color: #2D8CFF;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal {
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:1920px) {
+    .button{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .button{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .button{
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width:1336px) {
+    .button{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .button{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container{
+    aspect-ratio: 15 / 8;
+    flex-grow: 1;
+    width: 100vw;
+    background-image: url('/cta-mobile.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;}
+
+    .button{
+        margin-left: 35%;
+        margin-top: 35%;
+        background-color: #2D8CFF;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+
+    .button{
+        margin-left: 28%;
+        margin-top: 35%;
+        background-color: #2D8CFF;
+        font-size: 15px;
+        padding: 5px;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .modalContent{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.4;
+        background-color: white;
+        padding: 14px 28px;
+        border-radius: 25px;
+        max-width: 600px;
+        min-width: 300px;
+        height: 410px;
+    }
+
+}

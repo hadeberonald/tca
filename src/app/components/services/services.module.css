@@ -1,0 +1,420 @@
+.container{
+    width:100%;
+    color: white;
+    text-align: center;
+}
+
+.heading{
+    padding:20px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 2px solid gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.card1{
+    border-right: 2px solid gray;
+}
+
+.cmh{
+    padding-top: 30px;
+}
+
+.list{
+    text-align: left;
+    padding-left: 4%;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1920px)
+ {
+
+    .heading{
+        font-size: 35px;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 250px;
+        margin-right: 250px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .giffy1 {
+        width: 360px;
+        height:260px;
+    }
+
+    .giffy2 {
+        width: 190px;
+        height:230px;
+    }
+    
+    .card1{
+        border-right: 2px solid gray;
+        
+    }
+
+    .subsubhead{
+        font-size:30px;
+    }
+    
+    .cmh{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 30px;
+        font-size: 30px
+    }
+
+ }
+
+ @media screen and (max-width: 1600px)
+ {
+
+    .heading{
+        font-size: 30px;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .giffy1 {
+        width: 360px;
+        height:260px;
+    }
+
+    .giffy2 {
+        width: 190px;
+        height:230px;
+    }
+    
+    .card1{
+        border-right: 2px solid gray;
+        
+    }
+
+    .subsubhead{
+        font-size:30px;
+    }
+    
+    .cmh{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-top: 30px;
+        font-size: 30px
+    }
+
+ }
+
+ @media screen and (max-width: 1440px)
+ {
+
+    .heading{
+        font-size: 27px;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .giffy1 {
+        width: 310px;
+        height:210px;
+    }
+
+    .giffy2 {
+        width: 150px;
+        height:190px;
+    }
+    
+    .card1{
+        border-right: 2px solid gray;
+        
+    }
+
+    .subsubhead{
+        font-size:23px;
+        padding: 10px;
+    }
+    
+    .cmh{
+        padding-top: 30px;
+        font-size: 23px;
+        padding: 10px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 30px;
+        font-size: 25px
+    }
+
+ }
+
+@media screen and (max-width: 1440px)
+ {
+
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .card1{
+        border-right: 2px solid gray;
+        
+    }
+
+    
+    
+    .cmh{
+        padding-top: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 10px;
+
+    }
+
+ }
+
+ @media screen and (max-width:1336px) {
+    .container{
+        width:100%;
+        color: white;
+        text-align: center;
+    }
+    
+    .heading{
+        padding:20px;
+        font-size: 20px;
+    }
+    
+    .cardContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .card1{
+        border-right: 2px solid gray;
+    }
+    
+    .cmh{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 4%;
+        padding-top: 10px;
+    }
+ }
+
+ @media screen and (max-width: 1024px)
+ {
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .card1{
+        border-bottom: 2px solid gray;
+        border-right: none;
+        
+    }
+
+    
+    
+    .cmh{
+        padding-top: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+
+    }
+
+ }
+
+ @media screen and (max-width: 950px)
+ {
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .card1{
+        border-bottom: 2px solid gray;
+        border-right: none;
+        
+    }
+
+    
+    
+    .cmh{
+        padding-top: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+
+    }
+
+ }
+
+ @media screen and (max-width: 850px)
+ {
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .card1{
+        border-bottom: 2px solid gray;
+        border-right: none;
+        
+    }
+
+    
+    
+    .cmh{
+        padding-top: 30px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+
+    }
+
+ }
+
+ @media screen and (max-width: 640px)
+ {
+
+    .heading{
+        font-size: 15px;
+    }
+    .giffy1{
+        width:220px;
+        height:160px;
+    }
+
+    .giffy2{
+        width: 100px;
+        height:130px;
+    }
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid gray;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .card1{
+        border-bottom: 2px solid gray;
+        border-right: none;
+        
+    }
+
+    .subsubhead{
+        font-size: 15px;
+    }
+    
+    .cmh{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    
+    .list{
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+
+ }

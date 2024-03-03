@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+.uppercontainer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: grey;
+   color: black;
+   padding: 15px;
+}
+
+.quickLinks{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.imageContainer{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
