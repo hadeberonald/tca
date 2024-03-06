@@ -22,9 +22,48 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1920px) {
+
+    .title{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .title{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .title{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .title{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+}
+
 @media screen and (max-width:640px){
     
-    
+    .title{
+        font-size: 17px;
+        padding-top: 5px;
+    }
     
     .card {
         display: flex;

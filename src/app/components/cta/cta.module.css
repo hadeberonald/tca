@@ -77,10 +77,39 @@
     text-align: center;
 }
 
+@media screen and (max-width:1920px) {
+    .button{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .button{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .button{
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width:1336px) {
+    .button{
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width:1024px) {
     .button{
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .button{
+        font-size: 20px;
     }
 }
 

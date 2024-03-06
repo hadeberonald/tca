@@ -18,9 +18,11 @@ const page = () => {
                 <div className={styles.headerImageContainerm}>
                 <Image src="/pexels-olia-danilevich-4974920.jpg" alt="" width={350} height={250} className={styles.imagem}/>
                 </div>
+                <div className={styles.details}>
                 <div className={styles.title}>
                     <h1>Why Sales is The Most Important Skill for Every Tech Entrepreneur</h1>
                 </div>
+                
                 <div className={styles.detail}>
                     <div className={styles.userImageContainer}>
                         <Image src="/avatar.jpg" alt="" className={styles.avatar} width={50} height={50} />
@@ -28,6 +30,7 @@ const page = () => {
                     <div className={styles.text}>
                     <div className={styles.username}> <p>Ronald Hadebe</p></div>
                     <div className={styles.date}><p>03/03/2024</p></div>
+                </div>
                 </div>
                 </div>
             </div>

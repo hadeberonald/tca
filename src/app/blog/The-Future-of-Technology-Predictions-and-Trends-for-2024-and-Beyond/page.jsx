@@ -18,6 +18,7 @@ const page = () => {
                 <div className={styles.headerImageContainerm}>
                 <Image src="/pexels-michelangelo-buonarroti-8728556.jpg" alt="" width={350} height={250} className={styles.imagem}/>
                 </div>
+                <div className={styles.details}>
                 <div className={styles.title}>
                     <h1>The Future of Technology: Predictions and Trends for 2024 and Beyond</h1>
                 </div>
@@ -28,6 +29,7 @@ const page = () => {
                     <div className={styles.text}>
                     <div className={styles.username}> <p>Ronald Hadebe</p></div>
                     <div className={styles.date}><p>03/03/2024</p></div>
+                </div>
                 </div>
                 </div>
             </div>
@@ -43,6 +45,10 @@ const page = () => {
 
                 <div className={styles.headerImageContainerm}>
                 <Image src="/pexels-z-z-6200343.jpg" alt="" width={300} height={250} className={styles.imagem}/>
+                </div>
+
+                <div className={styles.postImageContainer}>
+                <Image src="/pexels-z-z-6200343.jpg" alt="" width={300} height={250} className={styles.postImage}/>
                 </div>
 
                 <h2 className={styles.h2}>5G will become more widespread</h2>
@@ -77,6 +83,11 @@ const page = () => {
                <div className={styles.headerImageContainerm}>
                 <Image src="/pexels-pixabay-60504.jpg" alt="" width={300} height={250} className={styles.imagem}/>
                 </div>
+
+                <div className={styles.postImageContainer}>
+                <Image src="/pexels-pixabay-60504.jpg" alt="" width={300} height={250} className={styles.postImage}/>
+                </div>
+
 
                <h2 className={styles.h2}>Cybersecurity threats get smarter</h2>
 
